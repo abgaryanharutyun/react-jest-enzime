@@ -1,0 +1,1 @@
+module.exports = 'test-file-stubyarn add --dev identity-obj-proxy'
