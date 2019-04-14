@@ -31,7 +31,9 @@ test('render count display', ()=> {
 });
 
 test('count started at 0', () => {
-
+  const wrapper = setup();
+  const initialCounterState = wrapper.state('counter');
+  expect(initialCounterState).toBe(0);
 });
 
 test('click button increment count display', () => {
